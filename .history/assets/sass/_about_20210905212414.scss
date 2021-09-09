@@ -1,0 +1,20 @@
+.about {
+  &__main{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 127px;
+}
+  &__item{
+    width: calc( (100% - 127px) / 4);
+}
+  &__item--img{
+
+}
+  &__item--title{
+
+}
+  &__item--desc{
+
+}
+}

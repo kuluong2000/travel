@@ -1,0 +1,61 @@
+.banner{
+    background: url(../image/banner.jpg) no-repeat center /  cover;
+    min-height: 600px;
+    border-radius: 10px;
+    position: relative;
+    
+  &__main{
+      position:absolute;
+      width:max-content;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+}
+  &__main__top{
+   
+    text-align: center;
+
+}
+  &__main__title{
+    font-size: 50px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+  &__main__desc{
+    color:$color-white;
+    width: 540px;
+    transform: translateX(30%);
+    margin-bottom: 20px;
+}
+  &__main__bottom{
+    background-color: white;
+    display: flex;
+    width: 876px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    
+}
+  &__main_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+  &__main__item:not(:last-child){
+      margin-right: 10px;
+
+}
+  &__main__item__caption{
+
+}
+  &__main__item__desc{
+    
+}
+  &__btn{
+
+}
+
+}

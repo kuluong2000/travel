@@ -1,0 +1,47 @@
+.banner{
+    background: url(../image/banner.jpg) no-repeat center /  cover;
+    min-height: 600px;
+    border-radius: 10px;
+    position: relative;
+    
+  &__main{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+  &__main__top{
+    max-width: 700px;
+
+}
+  &__main__title{
+    font-size: 50px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+  &__main__desc{
+
+}
+  &__main__bottom{
+
+}
+  &__main_list{
+
+}
+  &__main__item{
+
+}
+  &__main__item__caption{
+
+}
+  &__main__item__desc{
+
+}
+  &__btn{
+
+}
+
+}

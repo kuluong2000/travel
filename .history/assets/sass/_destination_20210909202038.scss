@@ -1,0 +1,22 @@
+.destination{
+    padding: 100px 0;
+    &__menu{
+        width: 1200px;
+        margin: 0 auto;
+ 
+        border-bottom:  1px solid #A7A7A7;
+        &__item{
+
+        }
+        &__link{
+            color: $color-text;
+        }
+        &__link.active{
+            background-color: transparent !important;
+            color: $color-text;
+        }
+    }
+    
+    
+    
+}

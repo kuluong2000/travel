@@ -1,0 +1,29 @@
+.destination{
+    padding: 100px 0;
+    &__menu{
+        width: 1200px;
+        margin: 0 auto;
+ 
+        border-bottom:  1px solid #A7A7A7;
+    }
+    .nav-item{
+        position: relative;
+    }
+    .nav-link {
+        color: #163235;
+        &::after{
+            position: absolute;
+            top: 10px;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background-color: red;
+            z-index: 99999;
+        }
+    }
+    
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: #163235;
+        background-color: transparent;
+    }
+}

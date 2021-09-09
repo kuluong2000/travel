@@ -1,0 +1,29 @@
+.header{
+    &__main{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:20px 0
+        
+    }
+    &__logo{
+        display: inline-block;
+
+    }
+    &__menu{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    &__menu__item{
+        margin-left: 82px;
+    }
+    &__mennu__item__link{
+
+    }
+    &__conn{
+
+    }
+
+}

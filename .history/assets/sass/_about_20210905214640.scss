@@ -1,0 +1,27 @@
+.about {
+    padding: 178px 0;
+  &__main{
+    display:flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 0 100px;
+}
+  &__item{
+    width: calc( (100% - 100px) / 4);
+    background-color:$color-white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(247,248,252,0.75);
+    padding: 29px 58px 25px 26px;
+   
+}
+  &__item--img{
+    width: 103px;
+    height: 97px;
+}
+  &__item--title{
+    font-size: 24px;
+}
+  &__item--desc{
+    margin-top: 20px;
+}
+}

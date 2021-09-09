@@ -1,0 +1,32 @@
+.header{
+    &__main{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:20px 0
+        
+    }
+    &__logo{
+        display: inline-block;
+
+    }
+    &__menu{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    &__menu__item{
+        margin-left: 82px;
+    }
+    &__mennu__item__link{
+        text-decoration: none;
+
+    }
+    &__conn{
+        text-decoration: none;
+        background-color: $color-blue;
+        color: $color-white;
+    }
+
+}

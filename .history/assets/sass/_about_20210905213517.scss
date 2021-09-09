@@ -1,0 +1,25 @@
+.about {
+    padding: 178px 0;
+  &__main{
+    display:flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 0 127px;
+}
+  &__item{
+    width: calc( (100% - 127px) / 4);
+    background-color:$color-white;
+    border: 1px solid #707070;
+   
+}
+  &__item--img{
+    width: 103px;
+    height: 97px;
+}
+  &__item--title{
+
+}
+  &__item--desc{
+
+}
+}

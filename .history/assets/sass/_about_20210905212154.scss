@@ -1,0 +1,13 @@
+.about{
+    &__main{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap:0 127px;
+    }
+    &__item{
+       width: calc( (100% - 127px ) / 4); 
+    }
+
+}

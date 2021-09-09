@@ -1,0 +1,23 @@
+.about {
+    padding: 178px 0;
+  &__main{
+    display:flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 0 127px;
+}
+  &__item{
+    width: calc( (100% - 127px) / 4);
+    background-color:$color-blue;
+   
+}
+  &__item--img{
+
+}
+  &__item--title{
+
+}
+  &__item--desc{
+
+}
+}

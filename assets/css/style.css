@@ -316,4 +316,56 @@ body {
   line-height: 30px;
 }
 
+.blog {
+  padding: 170px 0;
+}
+.blog__main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 277px 277px;
+  grid-gap: 28px;
+  grid-template-areas: "h1 h2" "h1 h3";
+}
+.blog__main__item {
+  position: relative;
+  width: max-content;
+}
+.blog__main__item:first-child {
+  grid-area: h1;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.blog__main__item:first-child img {
+  width: 965px;
+  object-fit: cover;
+}
+.blog__main__item:nth-child(2), .blog__main__item:last-child {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+.blog__main__item:nth-child(2) img, .blog__main__item:last-child img {
+  width: 785px;
+  object-fit: cover;
+}
+.blog__main__item:nth-child(2) {
+  grid-area: h2;
+}
+.blog__main__item:last-child {
+  grid-area: h3;
+}
+.blog__main__item__desc {
+  color: #FFFFFF;
+  width: max-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+.blog__main__item__desc span {
+  display: block;
+}
+
 /*# sourceMappingURL=style.css.map */

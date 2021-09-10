@@ -30,29 +30,6 @@
     .destination__card__bottom__service__price {
         font-size: 27px;
     }
-    /* blogs */
-    .blog {
-        padding: 151px 0;
-    }
-    .blog__main {
-        grid-template-rows: 210px 210px;
-        grid-gap: 25px;
-    }
-    .blog__main__item:first-child img {
-        width: 720px;
-    }
-    .blog__main__item:nth-child(2) img,
-    .blog__main__item:last-child img {
-        width: 560px;
-    }
-    .blog__main__item:first-child {
-        font-size: 45px;
-    }
-    .blog__main__item:nth-child(2), 
-    .blog__main__item:last-child {
-        font-size: 30px;
-
-    }
 }
 @media (min-width:1200px) and (max-width:1399px){
     .about {
@@ -105,29 +82,6 @@
     }
     .destination__card__bottom__info {
         font-size: 20px;
-    }
-    /* blog */
-    .blog {
-        padding: 130px 0;
-    }
-    .blog__main {
-        grid-template-rows: 180px 180px;
-        grid-gap: 20px;
-    }
-    .blog__main__item:first-child img {
-        width: 613px;
-    }
-    .blog__main__item:nth-child(2) img, 
-    .blog__main__item:last-child img {
-        width: 485px;
-
-    }
-    .blog__main__item:first-child {
-        font-size: 35px;
-    }
-    .blog__main__item:nth-child(2), 
-    .blog__main__item:last-child {
-        font-size: 25px;
     }
 }
 @media (min-width:992px) and (max-width:1199px){
@@ -186,30 +140,6 @@
     .destination__card__bottom__info {
         font-size: 20px;
     }
-    /* blogs */
-    .blog {
-        padding: 80px 0;
-    }
-
-    .blog__main {
-        grid-template-rows: 152px 152px;
-        grid-gap: 15px;
-    }
-    .blog__main__item:first-child img {
-        width: 520px;
-    }
-    .blog__main__item:nth-child(2) img, 
-    .blog__main__item:last-child img {
-        width: 410px;
-    }
-    .blog__main__item:first-child {
-        font-size: 30px;
-    }
-    .blog__main__item:nth-child(2), 
-    .blog__main__item:last-child {
-        font-size: 22px;
-    }
-    
 }
 @media (min-width:768px) and (max-width:991px){
     .header__menu__item:not(:first-child) {
@@ -306,28 +236,6 @@
         font-size: 18px;
         line-height: 30px;
     }
-    /* blogs */
-    .blog {
-        padding: 60px 0;
-    }
-    .blog__main {
-        grid-template-rows: 114px 114px;
-        grid-gap: 10px;
-    }
-    .blog__main__item:first-child img {
-        width: 386px;
-    }
-    .blog__main__item:nth-child(2) img, 
-    .blog__main__item:last-child img {
-        width: 305px;
-    }
-    .blog__main__item:first-child {
-        font-size: 22px;
-    }
-    .blog__main__item:nth-child(2), 
-    .blog__main__item:last-child {
-        font-size: 18px;
-    }
 }
 @media  (max-width:767px){
     .container{
@@ -376,19 +284,18 @@
     }    
     /* banner */
     .banner {
-         min-height: 35vh; 
+         min-height: 40vh; 
     }
     .banner__main__bottom {
          display: none;
     }
     .banner__main__title {
-        font-size: 22px;
-        margin-bottom: 15px;
+        font-size: 5vw;
     }
     .banner__main__desc {
         width: 90vw;
-        margin-bottom: 0px;
-        font-size: 16px;
+        margin-bottom: 20px;
+        font-size: 3vw;
     }
     /* about */
     .about {
@@ -413,7 +320,7 @@
     .about__item:nth-child(2),
     .about__item:nth-child(3),
     .about__item:last-child {
-        padding: 15px 10px 10px 10px
+        padding: 25px 10px 15px 20px;
     }
     /* destination */
     .destination {
@@ -428,7 +335,6 @@
     }
     .destination__menu__link {
         font-size: 16px;
-        margin-bottom: 10px;
 
     }
     
@@ -441,40 +347,23 @@
         width: 100%;
     }
     .destination__card__top__name {
-        font-size: 20px;
+        font-size: 22px;
     }
     .destination__card__top__desc {
         margin-bottom: 5px;
-        font-size: 16px;
+        font-size: 18px;
     }
     .destination__card__bottom__service__img img {
-        width: 18px;
-        height: 18px;
+        width: 20px;
+        height: 20px;
     }
     .destination__card__bottom__service__price {
-        font-size: 16px;
+        font-size: 18px;
     }
     .destination__card__bottom__info {
-        font-size: 14px;
+        font-size: 16px;
     }
     .destination__card__bottom__service {
         margin-bottom: 0;
-    }
-    /* blog */
-    .blog {
-        padding: 40px 0;
-    }
-    .blog__main {
-        display: block;
-    }
-    .blog__main__item {
-        width: 100%;
-    }
-    .blog__main__item:first-child {
-        font-size: 20px;
-    }
-    .blog__main__item:nth-child(2), 
-    .blog__main__item:last-child {
-        font-size: 18px;
     }
 }

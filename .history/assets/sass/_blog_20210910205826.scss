@@ -1,0 +1,40 @@
+.blog {
+    padding: 170px 0;
+  &__main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 277px 277px;
+    grid-gap: 34px;
+    grid-template-areas: "h1 h2" "h1 h3";
+    &__img{
+        border-radius: 25px;
+    }
+}
+
+  &__main__item:first-child{
+      width: 965px;
+      grid-area: h1;
+
+}
+  &__main__item:nth-child(2){
+      grid-area: h2;
+      height: 277px;
+
+}
+  &__main__item:last-child{
+      grid-area: h3;
+      height: 277px;
+
+}
+  &__main__item__img{
+    position: relative;
+    z-index: 1;
+}
+//   &__main__item__desc{
+//       color: $color-white;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     z-index: 99;
+// }
+}

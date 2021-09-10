@@ -460,21 +460,4 @@
     .destination__card__bottom__service {
         margin-bottom: 0;
     }
-    /* blog */
-    .blog {
-        padding: 40px 0;
-    }
-    .blog__main {
-        display: block;
-    }
-    .blog__main__item {
-        width: 100%;
-    }
-    .blog__main__item:first-child {
-        font-size: 20px;
-    }
-    .blog__main__item:nth-child(2), 
-    .blog__main__item:last-child {
-        font-size: 18px;
-    }
 }

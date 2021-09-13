@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./libs/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./libs/css/animate.css" />
+    <link rel="stylesheet" href="./libs/css/slick-theme.css" />
+    <link rel="stylesheet" href="./libs/css/slick.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="header__main">
+            <div class="header__logo">
+              <a href="/">
+                <img src="./assets/image/logo.png" alt="" srcset="" />
+              </a>
+            </div>
+            <div class="sub-menu">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+            <nav>
+              <ul class="header__menu">
+                <li class="header__menu__item">
+                  <a class="header__mennu__item__link" href="/">Home</a>
+                </li>
+                <li class="header__menu__item">
+                  <a class="header__mennu__item__link" href="/">About</a>
+                </li>
+                <li class="header__menu__item">
+                  <a class="header__mennu__item__link" href="/">Places</a>
+                </li>
+                <li class="header__menu__item">
+                  <a class="header__mennu__item__link" href="/">Careers</a>
+                </li>
+                <li class="header__menu__item">
+                  <a class="header__mennu__item__link" href="/">Blog</a>
+                </li>
+              </ul>
+            </nav>
+            <a href="#" class="header__conn"> Connection </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="banner">
+        <div class="container">
+          <div class="row">
+            <div class="banner__main">
+              <div class="banner__main__top">
+                <h1 class="banner__main__title">Travel To explore</h1>
+                <p class="banner__main__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sapiente quidem, quam perspiciatis ea consequatur qui officiis unde molestias</p>
+              </div>
+              <div class="banner__main__bottom">
+                <div class="banner__main_list">
+                  <div class="banner__main__item">
+                    <h4 class="banner__main__item__caption">Where You Want to go</h4>
+                    <a href="/" class="banner__main__item__desc">
+                      <ion-icon name="search-outline" class="banner__main__item__desc--icon"> </ion-icon>
+                      <p>Search yourLocation</p>
+                    </a>
+                  </div>
+                  <div class="banner__main__item">
+                    <h4 class="banner__main__item__caption">Check-in</h4>
+                    <a href="/" class="banner__main__item__desc">Add Date</a>
+                  </div>
+                  <div class="banner__main__item">
+                    <h4 class="banner__main__item__caption">check-out</h4>
+                    <a href="/" class="banner__main__item__desc">add Date</a>
+                  </div>
+                </div>
+                <a href="/" class="banner__btn"> explore Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <div class="row">
+            <div class="about__main">
+              <div class="about__item">
+                <img src="./assets/image/bestPrices.png" alt="" class="about__item--img" />
+                <div class="about__item__info">
+                  <h4 class="about__item--title">Get Best Prices</h4>
+                  <p class="about__item--desc">Pay through our application and save thousands and get amazing rewards</p>
+                </div>
+              </div>
+              <div class="about__item">
+                <img src="./assets/image/covidSafe.png" alt="" class="about__item--img" />
+                <div class="about__item__info">
+                  <h4 class="about__item--title">Covid Safe</h4>
+                  <p class="about__item--desc">We have all the curated hotels that have all the precaution for a corvid safe environment</p>
+                </div>
+              </div>
+
+              <div class="about__item">
+                <img src="./assets/image/payment.png" alt="" class="about__item--img" />
+                <div class="about__item__info">
+                  <h4 class="about__item--title">Flexible Payment</h4>
+                  <p class="about__item--desc">Enjoy the flexible payment through our app and get rewards on every payment</p>
+                </div>
+              </div>
+              <div class="about__item">
+                <img src="./assets/image/nearYou.png" alt="" class="about__item--img" />
+                <div class="about__item__info">
+                  <h4 class="about__item--title">Find The Best Near You</h4>
+                  <p class="about__item--desc">Find the best hotels and places to visit near you in a single click</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="destination">
+        <div class="container">
+          <div class="row">
+            <h2 class="destination__title">Recommended Destination</h2>
+            <div class="destination__menu">
+              <ul class="nav nav-pills d-flex justify-content-between" id="pills-tab" role="tablist">
+                <li class="nav-item destination__menu__item" role="presentation">
+                  <button class="nav-link destination__menu__link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">The Weekend Break</button>
+                </li>
+                <li class="nav-item destination__menu__item" role="presentation">
+                  <button class="nav-link destination__menu__link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">The Package Holiday</button>
+                </li>
+                <li class="nav-item destination__menu__item" role="presentation">
+                  <button class="nav-link destination__menu__link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">The Group Tour</button>
+                </li>
+                <li class="nav-item destination__menu__item" role="presentation">
+                  <button class="nav-link destination__menu__link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                    Long Term Slow Travel
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="destination__cards">
+                  <div class="destination__card">
+                    <img src="./assets/image/Singapore.png" alt="" class="destination__card__img" />
+                    <div class="destination__card__content">
+                      <div class="destination__card__top">
+                        <h4 class="destination__card__top__name">Singapore</h4>
+                        <p class="destination__card__top__desc">Singapore, officially the Republic of Singapore, is a sovereign island city-state in maritime Southeast Asia.</p>
+                      </div>
+                      <div class="destination__card__bottom">
+                        <div class="destination__card__bottom__service">
+                          <div class="destination__card__bottom__service__img">
+                            <img src="./assets/image/destination_icon1.png" alt="" />
+                            <img src="./assets/image/destination_icon2.png" alt="" />
+                            <img src="./assets/image/destination_icon3.png" alt="" />
+                          </div>
+                          <p class="destination__card__bottom__service__price"><span>₹ </span> 38,800</p>
+                        </div>
+                        <div class="destination__card__bottom__info">
+                          <p>1000 <span>Kms</span></p>
+                          <p>Approx 2 night trip</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="destination__card">
+                    <img src="./assets/image/Thailand.png" alt="" class="destination__card__img" />
+                    <div class="destination__card__content">
+                      <div class="destination__card__top">
+                        <h4 class="destination__card__top__name">Thailand</h4>
+                        <p class="destination__card__top__desc">Thailand is a Southeast Asian country. It's known for tropical beaches, opulent royal palaces.</p>
+                      </div>
+                      <div class="destination__card__bottom">
+                        <div class="destination__card__bottom__service">
+                          <div class="destination__card__bottom__service__img">
+                            <img src="./assets/image/destination_icon1.png" alt="" />
+                            <img src="./assets/image/destination_icon2.png" alt="" />
+                            <img src="./assets/image/destination_icon3.png" alt="" />
+                          </div>
+                          <p class="destination__card__bottom__service__price"><span>₹ </span> 38,800</p>
+                        </div>
+                        <div class="destination__card__bottom__info">
+                          <p>1000 <span>Kms</span></p>
+                          <p>Approx 2 night trip</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="destination__card">
+                    <img src="./assets/image/Paris.png" alt="" class="destination__card__img" />
+                    <div class="destination__card__content">
+                      <div class="destination__card__top">
+                        <h4 class="destination__card__top__name">Paris</h4>
+                        <p class="destination__card__top__desc">Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture.</p>
+                      </div>
+                      <div class="destination__card__bottom">
+                        <div class="destination__card__bottom__service">
+                          <div class="destination__card__bottom__service__img">
+                            <img src="./assets/image/destination_icon1.png" alt="" />
+                            <img src="./assets/image/destination_icon2.png" alt="" />
+                            <img src="./assets/image/destination_icon3.png" alt="" />
+                          </div>
+                          <p class="destination__card__bottom__service__price"><span>₹ </span> 38,800</p>
+                        </div>
+                        <div class="destination__card__bottom__info">
+                          <p>1000 <span>Kms</span></p>
+                          <p>Approx 2 night trip</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="destination__card">
+                    <img src="./assets/image/New Zealand.png" alt="" class="destination__card__img" />
+                    <div class="destination__card__content">
+                      <div class="destination__card__top">
+                        <h4 class="destination__card__top__name">New Zealand</h4>
+                        <p class="destination__card__top__desc">New Zealand is an island country in the southwestern Pacific Ocean. It consists of two main landmasses.</p>
+                      </div>
+                      <div class="destination__card__bottom">
+                        <div class="destination__card__bottom__service">
+                          <div class="destination__card__bottom__service__img">
+                            <img src="./assets/image/destination_icon1.png" alt="" />
+                            <img src="./assets/image/destination_icon2.png" alt="" />
+                            <img src="./assets/image/destination_icon3.png" alt="" />
+                          </div>
+                          <p class="destination__card__bottom__service__price"><span>₹ </span> 38,800</p>
+                        </div>
+                        <div class="destination__card__bottom__info">
+                          <p>1000 <span>Kms</span></p>
+                          <p>Approx 2 night trip</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="destination__card">
+                    <img src="./assets/image/Bora Bora.png" alt="" class="destination__card__img" />
+                    <div class="destination__card__content">
+                      <div class="destination__card__top">
+                        <h4 class="destination__card__top__name">Bora Bora</h4>
+                        <p class="destination__card__top__desc">Bora Bora is a small South Pacific island northwest of Tahiti in French Polynesia. Surrounded by sand.</p>
+                      </div>
+                      <div class="destination__card__bottom">
+                        <div class="destination__card__bottom__service">
+                          <div class="destination__card__bottom__service__img">
+                            <img src="./assets/image/destination_icon1.png" alt="" />
+                            <img src="./assets/image/destination_icon2.png" alt="" />
+                            <img src="./assets/image/destination_icon3.png" alt="" />
+                          </div>
+                          <p class="destination__card__bottom__service__price"><span>₹ </span> 38,800</p>
+                        </div>
+                        <div class="destination__card__bottom__info">
+                          <p>1000 <span>Kms</span></p>
+                          <p>Approx 2 night trip</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="destination__card">
+                    <img src="./assets/image/London.png" alt="" class="destination__card__img" />
+                    <div class="destination__card__content">
+                      <div class="destination__card__top">
+                        <h4 class="destination__card__top__name">London</h4>
+                        <p class="destination__card__top__desc">London, the capital of England and the United Kingdom, is a 21st-century city with history stretching.</p>
+                      </div>
+                      <div class="destination__card__bottom">
+                        <div class="destination__card__bottom__service">
+                          <div class="destination__card__bottom__service__img">
+                            <img src="./assets/image/destination_icon1.png" alt="" />
+                            <img src="./assets/image/destination_icon2.png" alt="" />
+                            <img src="./assets/image/destination_icon3.png" alt="" />
+                          </div>
+                          <p class="destination__card__bottom__service__price"><span>₹ </span> 38,800</p>
+                        </div>
+                        <div class="destination__card__bottom__info">
+                          <p>1000 <span>Kms</span></p>
+                          <p>Approx 2 night trip</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="destination__cards">
+                  <div class="destination__card">
+                    <img src="./assets/image/Singapore.png" alt="" class="destination__card__img" />
+                    <div class="destination__card__content">
+                      <div class="destination__card__top">
+                        <h4 class="destination__card__top__name">Singapore</h4>
+                        <p class="destination__card__top__desc">Singapore, officially the Republic of Singapore, is a sovereign island city-state in maritime Southeast Asia.</p>
+                      </div>
+                      <div class="destination__card__bottom">
+                        <div class="destination__card__bottom__service">
+                          <div class="destination__card__bottom__service__img">
+                            <img src="./assets/image/destination_icon1.png" alt="" />
+                            <img src="./assets/image/destination_icon2.png" alt="" />
+                            <img src="./assets/image/destination_icon3.png" alt="" />
+                          </div>
+                          <p class="destination__card__bottom__service__price"><span>₹ </span> 38,800</p>
+                        </div>
+                        <div class="destination__card__bottom__info">
+                          <p>1000 <span>Kms</span></p>
+                          <p>Approx 2 night trip</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="destination__card">
+                    <img src="./assets/image/Thailand.png" alt="" class="destination__card__img" />
+                    <div class="destination__card__content">
+                      <div class="destination__card__top">
+                        <h4 class="destination__card__top__name">Thailand</h4>
+                        <p class="destination__card__top__desc">Thailand is a Southeast Asian country. It's known for tropical beaches, opulent royal palaces.</p>
+                      </div>
+                      <div class="destination__card__bottom">
+                        <div class="destination__card__bottom__service">
+                          <div class="destination__card__bottom__service__img">
+                            <img src="./assets/image/destination_icon1.png" alt="" />
+                            <img src="./assets/image/destination_icon2.png" alt="" />
+                            <img src="./assets/image/destination_icon3.png" alt="" />
+                          </div>
+                          <p class="destination__card__bottom__service__price"><span>₹ </span> 38,800</p>
+                        </div>
+                        <div class="destination__card__bottom__info">
+                          <p>1000 <span>Kms</span></p>
+                          <p>Approx 2 night trip</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="destination__card">
+                    <img src="./assets/image/Paris.png" alt="" class="destination__card__img" />
+                    <div class="destination__card__content">
+                      <div class="destination__card__top">
+                        <h4 class="destination__card__top__name">Paris</h4>
+                        <p class="destination__card__top__desc">Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture.</p>
+                      </div>
+                      <div class="destination__card__bottom">
+                        <div class="destination__card__bottom__service">
+                          <div class="destination__card__bottom__service__img">
+                            <img src="./assets/image/destination_icon1.png" alt="" />
+                            <img src="./assets/image/destination_icon2.png" alt="" />
+                            <img src="./assets/image/destination_icon3.png" alt="" />
+                          </div>
+                          <p class="destination__card__bottom__service__price"><span>₹ </span> 38,800</p>
+                        </div>
+                        <div class="destination__card__bottom__info">
+                          <p>1000 <span>Kms</span></p>
+                          <p>Approx 2 night trip</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="destination__card">
+                    <img src="./assets/image/New Zealand.png" alt="" class="destination__card__img" />
+                    <div class="destination__card__content">
+                      <div class="destination__card__top">
+                        <h4 class="destination__card__top__name">New Zealand</h4>
+                        <p class="destination__card__top__desc">New Zealand is an island country in the southwestern Pacific Ocean. It consists of two main landmasses.</p>
+                      </div>
+                      <div class="destination__card__bottom">
+                        <div class="destination__card__bottom__service">
+                          <div class="destination__card__bottom__service__img">
+                            <img src="./assets/image/destination_icon1.png" alt="" />
+                            <img src="./assets/image/destination_icon2.png" alt="" />
+                            <img src="./assets/image/destination_icon3.png" alt="" />
+                          </div>
+                          <p class="destination__card__bottom__service__price"><span>₹ </span> 38,800</p>
+                        </div>
+                        <div class="destination__card__bottom__info">
+                          <p>1000 <span>Kms</span></p>
+                          <p>Approx 2 night trip</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="destination__card">
+                    <img src="./assets/image/Bora Bora.png" alt="" class="destination__card__img" />
+                    <div class="destination__card__content">
+                      <div class="destination__card__top">
+                        <h4 class="destination__card__top__name">Bora Bora</h4>
+                        <p class="destination__card__top__desc">Bora Bora is a small South Pacific island northwest of Tahiti in French Polynesia. Surrounded by sand.</p>
+                      </div>
+                      <div class="destination__card__bottom">
+                        <div class="destination__card__bottom__service">
+                          <div class="destination__card__bottom__service__img">
+                            <img src="./assets/image/destination_icon1.png" alt="" />
+                            <img src="./assets/image/destination_icon2.png" alt="" />
+                            <img src="./assets/image/destination_icon3.png" alt="" />
+                          </div>
+                          <p class="destination__card__bottom__service__price"><span>₹ </span> 38,800</p>
+                        </div>
+                        <div class="destination__card__bottom__info">
+                          <p>1000 <span>Kms</span></p>
+                          <p>Approx 2 night trip</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="destination__card">
+                    <img src="./assets/image/London.png" alt="" class="destination__card__img" />
+                    <div class="destination__card__content">
+                      <div class="destination__card__top">
+                        <h4 class="destination__card__top__name">London</h4>
+                        <p class="destination__card__top__desc">London, the capital of England and the United Kingdom, is a 21st-century city with history stretching.</p>
+                      </div>
+                      <div class="destination__card__bottom">
+                        <div class="destination__card__bottom__service">
+                          <div class="destination__card__bottom__service__img">
+                            <img src="./assets/image/destination_icon1.png" alt="" />
+                            <img src="./assets/image/destination_icon2.png" alt="" />
+                            <img src="./assets/image/destination_icon3.png" alt="" />
+                          </div>
+                          <p class="destination__card__bottom__service__price"><span>₹ </span> 38,800</p>
+                        </div>
+                        <div class="destination__card__bottom__info">
+                          <p>1000 <span>Kms</span></p>
+                          <p>Approx 2 night trip</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="destination__cards">
+                  <div class="destination__card">
+                    <img src="./assets/image/Singapore.png" alt="" class="destination__card__img" />
+                    <div class="destination__card__content">
+                      <div class="destination__card__top">
+                        <h4 class="destination__card__top__name">Singapore</h4>
+                        <p class="destination__card__top__desc">Singapore, officially the Republic of Singapore, is a sovereign island city-state in maritime Southeast Asia.</p>
+                      </div>
+                      <div class="destination__card__bottom">
+                        <div class="destination__card__bottom__service">
+                          <div class="destination__card__bottom__service__img">
+                            <img src="./assets/image/destination_icon1.png" alt="" />
+                            <img src="./assets/image/destination_icon2.png" alt="" />
+                            <img src="./assets/image/destination_icon3.png" alt="" />
+                          </div>
+                          <p class="destination__card__bottom__service__price"><span>₹ </span> 38,800</p>
+                        </div>
+                        <div class="destination__card__bottom__info">
+                          <p>1000 <span>Kms</span></p>
+                          <p>Approx 2 night trip</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="destination__card">
+                    <img src="./assets/image/Thailand.png" alt="" class="destination__card__img" />
+                    <div class="destination__card__content">
+                      <div class="destination__card__top">
+                        <h4 class="destination__card__top__name">Thailand</h4>
+                        <p class="destination__card__top__desc">Thailand is a Southeast Asian country. It's known for tropical beaches, opulent royal palaces.</p>
+                      </div>
+                      <div class="destination__card__bottom">
+                        <div class="destination__card__bottom__service">
+                          <div class="destination__card__bottom__service__img">
+                            <img src="./assets/image/destination_icon1.png" alt="" />
+                            <img src="./assets/image/destination_icon2.png" alt="" />
+                            <img src="./assets/image/destination_icon3.png" alt="" />
+                          </div>
+                          <p class="destination__card__bottom__service__price"><span>₹ </span> 38,800</p>
+                        </div>
+                        <div class="destination__card__bottom__info">
+                          <p>1000 <span>Kms</span></p>
+                          <p>Approx 2 night trip</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="destination__card">
+                    <img src="./assets/image/Paris.png" alt="" class="destination__card__img" />
+                    <div class="destination__card__content">
+                      <div class="destination__card__top">
+                        <h4 class="destination__card__top__name">Paris</h4>
+                        <p class="destination__card__top__desc">Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture.</p>
+                      </div>
+                      <div class="destination__card__bottom">
+                        <div class="destination__card__bottom__service">
+                          <div class="destination__card__bottom__service__img">
+                            <img src="./assets/image/destination_icon1.png" alt="" />
+                            <img src="./assets/image/destination_icon2.png" alt="" />
+                            <img src="./assets/image/destination_icon3.png" alt="" />
+                          </div>
+                          <p class="destination__card__bottom__service__price"><span>₹ </span> 38,800</p>
+                        </div>
+                        <div class="destination__card__bottom__info">
+                          <p>1000 <span>Kms</span></p>
+                          <p>Approx 2 night trip</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="destination__card">
+                    <img src="./assets/image/New Zealand.png" alt="" class="destination__card__img" />
+                    <div class="destination__card__content">
+                      <div class="destination__card__top">
+                        <h4 class="destination__card__top__name">New Zealand</h4>
+                        <p class="destination__card__top__desc">New Zealand is an island country in the southwestern Pacific Ocean. It consists of two main landmasses.</p>
+                      </div>
+                      <div class="destination__card__bottom">
+                        <div class="destination__card__bottom__service">
+                          <div class="destination__card__bottom__service__img">
+                            <img src="./assets/image/destination_icon1.png" alt="" />
+                            <img src="./assets/image/destination_icon2.png" alt="" />
+                            <img src="./assets/image/destination_icon3.png" alt="" />
+                          </div>
+                          <p class="destination__card__bottom__service__price"><span>₹ </span> 38,800</p>
+                        </div>
+                        <div class="destination__card__bottom__info">
+                          <p>1000 <span>Kms</span></p>
+                          <p>Approx 2 night trip</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="destination__card">
+                    <img src="./assets/image/Bora Bora.png" alt="" class="destination__card__img" />
+                    <div class="destination__card__content">
+                      <div class="destination__card__top">
+                        <h4 class="destination__card__top__name">Bora Bora</h4>
+                        <p class="destination__card__top__desc">Bora Bora is a small South Pacific island northwest of Tahiti in French Polynesia. Surrounded by sand.</p>
+                      </div>
+                      <div class="destination__card__bottom">
+                        <div class="destination__card__bottom__service">
+                          <div class="destination__card__bottom__service__img">
+                            <img src="./assets/image/destination_icon1.png" alt="" />
+                            <img src="./assets/image/destination_icon2.png" alt="" />
+                            <img src="./assets/image/destination_icon3.png" alt="" />
+                          </div>
+                          <p class="destination__card__bottom__service__price"><span>₹ </span> 38,800</p>
+                        </div>
+                        <div class="destination__card__bottom__info">
+                          <p>1000 <span>Kms</span></p>
+                          <p>Approx 2 night trip</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="destination__card">
+                    <img src="./assets/image/London.png" alt="" class="destination__card__img" />
+                    <div class="destination__card__content">
+                      <div class="destination__card__top">
+                        <h4 class="destination__card__top__name">London</h4>
+                        <p class="destination__card__top__desc">London, the capital of England and the United Kingdom, is a 21st-century city with history stretching.</p>
+                      </div>
+                      <div class="destination__card__bottom">
+                        <div class="destination__card__bottom__service">
+                          <div class="destination__card__bottom__service__img">
+                            <img src="./assets/image/destination_icon1.png" alt="" />
+                            <img src="./assets/image/destination_icon2.png" alt="" />
+                            <img src="./assets/image/destination_icon3.png" alt="" />
+                          </div>
+                          <p class="destination__card__bottom__service__price"><span>₹ </span> 38,800</p>
+                        </div>
+                        <div class="destination__card__bottom__info">
+                          <p>1000 <span>Kms</span></p>
+                          <p>Approx 2 night trip</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blog">
+        <div class="container">
+          <div class="row">
+            <div class="blog__main">
+              <div class="blog__main__item">
+                <img src="./assets/image/blogs_img1.png" alt="" class="blog__main__item__img" />
+                <p class="blog__main__item__desc">
+                  <span> The Ultimate Guide</span>
+                  <span> to Climbing</span>
+                  <span> Mount Kilimanjaro</span>
+                </p>
+              </div>
+              <div class="blog__main__item">
+                <img src="./assets/image/blogs_img2.png" alt="" class="blog__main__item__img" />
+                <p class="blog__main__item__desc">
+                  <span> 12 Things I’d Tell Any</span>
+                  <span> New Traveler</span>
+                </p>
+              </div>
+
+              <div class="blog__main__item">
+                <img src="./assets/image/blogs_img3.png " alt="" class="blog__main__item__img" />
+                <p class="blog__main__item__desc">
+                  <span>The Ultimate Packing List for</span>
+                  <span> Female Travelers</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="happy">
+        <div class="container">
+          <div class="row">
+            <div class="happy__main">
+              <div class="happy__item">
+                <div class="happy__item__content">
+                  <img src="./assets/image/icon_quote.png" alt="" />
+                  <p class="happy__content__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies mi eget mauris pharetra. Amet risus nullam eget felis eget nunc lobortis. Purus in massa tempor
+                    nec. Porta nibh venenatis cras sed. Viverra ipsum nunc aliquet bibendum enim. Risus pretium quam vulputate dignissim suspendisse in. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Facilisi cras fermentum
+                    odio eu feugiat pretium nibh ipsum. Risus sed vulputate odio ut enim blandit volutpat maecenas. Netus et malesuada fames ac turpis egestas. Sed arcu non odio euismod lacinia at quis risus sed. Praesent elementum facilisis leo vel
+                    fringilla est ullamcorper. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Elit pellentesque habitant morbi tristique senectus et netus. Morbi tincidunt augue interdum velit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./libs/Js/jquery-3.5.1.slim.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./libs/Js/bootstrap.min.js"></script>
+    <script src="./libs/Js/slick.min.js"></script>
+    <script src="./libs/Js/wow.js"></script>
+    <script src="./assets/Js/main.js"></script>
+  </body>
+</html>

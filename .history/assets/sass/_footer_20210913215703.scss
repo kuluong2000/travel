@@ -1,0 +1,31 @@
+.footer {
+    background-color:#E1E8F8;
+    
+    
+  &__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 72px 30px 74px 31px;
+}
+  &__ropyright{
+    font-size: 24px;
+}
+  &__menu{
+    width: 602px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  &__menu__item{
+
+}
+  &__menu__link{
+      text-decoration: none;
+      font-size: 24px;
+
+}
+&__social a{
+    margin-right: 27px;
+}
+}

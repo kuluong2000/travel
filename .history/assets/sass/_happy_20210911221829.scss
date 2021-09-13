@@ -1,0 +1,39 @@
+.happy {
+  &__main{
+    
+}
+  &__item{
+    width: 918px;
+}
+  &__content{
+    display: flex;
+    align-items: flex-start;
+}
+  &__content__desc{
+    margin-left: 24px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-word;
+    margin-bottom: 30px;    
+    padding-bottom: 20px;
+}
+  &__user{
+    display: flex;
+}
+  &__user__avatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+  &__user__info{
+
+}
+  &__user__name{
+
+}
+  &__user__position{
+
+}
+}

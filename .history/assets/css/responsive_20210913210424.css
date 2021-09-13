@@ -1,0 +1,584 @@
+
+@media (min-width:1920px){
+    .container{
+        max-width: 1804px;
+    }
+}
+@media (min-width:1400px) and (max-width:1919px){
+    .about {
+        padding: 115px 0px;
+    }
+    .about__main {
+        grid-column-gap: 30px;
+     
+    }
+    .about__item {
+      padding: 29px 30px 25px 26px;
+    }
+
+    /* destination */
+    .destination {
+         padding: 70px 0;
+    }
+    .destination__cards {
+        grid-gap: 90px 55px;
+
+    }
+    .destination__card__top__desc {
+        font-size: 24px
+    }
+    .destination__card__bottom__service__price {
+        font-size: 27px;
+    }
+    /* blogs */
+    .blog {
+        padding: 151px 0;
+    }
+    .blog__main {
+        grid-template-rows: 210px 210px;
+        grid-gap: 25px;
+    }
+    .blog__main__item:first-child img {
+        width: 720px;
+    }
+    .blog__main__item:nth-child(2) img,
+    .blog__main__item:last-child img {
+        width: 560px;
+    }
+    .blog__main__item:first-child {
+        font-size: 45px;
+    }
+    .blog__main__item:nth-child(2), 
+    .blog__main__item:last-child {
+        font-size: 30px;
+
+    }
+    /* happy */
+    .happy__item {
+        padding: 40px 12px 40px 20px;
+    }
+    .happy__content__desc {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .happy__user__name {
+        font-size: 28px;
+    }
+    .happy__user__position {
+        font-size: 24px;
+    }
+
+}
+@media (min-width:1200px) and (max-width:1399px){
+    .about {
+        padding: 100px 0px;
+    }   
+    .about__main {
+        grid-column-gap: 30px;
+    }
+
+    .about__item--desc {
+      font-size: 18px;
+    }
+    .about__item:first-child {
+        padding: 20px 23px 13px 20px;
+    }
+    .about__item:nth-child(2) {
+        padding: 29px 10px 25px 20px;
+    }   
+    .about__item:nth-child(3) {
+     padding: 29px 14px 25px 20px;
+    }
+    .about__item:last-child {
+        padding: 29px 20px 10px 20px;
+    }
+    /* destinaton */
+    .destination {
+        padding: 50px 0;
+    }
+    .destination__menu {
+         width: 990px;
+    }
+    .destination__menu__link {
+        font-size: 22px;
+    }
+    .destination__cards {
+        grid-gap: 90px 50px;
+    }
+    .destination__card__top__name {
+         font-size: 35px;
+    }
+    .destination__card__top__desc {
+        font-size: 22px;
+    }
+    .destination__card__bottom__service__img img {
+        width: 30px;
+        height: 30px;
+    }
+    .destination__card__bottom__service__price {
+         font-size: 25px;
+    }
+    .destination__card__bottom__info {
+        font-size: 20px;
+    }
+    /* blog */
+    .blog {
+        padding: 130px 0;
+    }
+    .blog__main {
+        grid-template-rows: 180px 180px;
+        grid-gap: 20px;
+    }
+    .blog__main__item:first-child img {
+        width: 613px;
+    }
+    .blog__main__item:nth-child(2) img, 
+    .blog__main__item:last-child img {
+        width: 485px;
+
+    }
+    .blog__main__item:first-child {
+        font-size: 35px;
+    }
+    .blog__main__item:nth-child(2), 
+    .blog__main__item:last-child {
+        font-size: 25px;
+    }
+    /* happy */
+    .happy__item {
+        padding: 30px 12px 30px 15px;
+    }
+    .happy__content__desc {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .happy__user__name {
+        font-size: 24px;
+    }
+    .happy__user__position {
+        font-size: 22px;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    .header__menu__item:not(:first-child) {
+        margin-left: 65px;
+    }
+    .about {
+        padding: 70px 0;
+    }
+    .about__main {
+   
+        grid-column-gap: 20px;
+    }
+    .about__item:first-child,
+    .about__item:nth-child(2),
+    .about__item:nth-child(3),
+    .about__item:last-child {
+        padding: 29px 10px 15px 15px;
+    }
+    .about__item--desc {
+        font-size: 16px;
+    }
+    .about__item--title {
+        font-size: 20px;
+    }
+    /* destination */
+    .destination {
+        padding: 40px 0;
+    }
+    .destination__title {
+        margin-bottom: 60px;
+    }
+    .destination__menu {
+        width: 830px;
+    }
+    .destination__menu__link {
+        font-size: 20px;
+    }  
+    .destination__cards {
+        grid-gap: 90px 30px;
+        margin-top: 50px;
+    } 
+    .destination__card__top__name {
+        font-size: 30px;
+    }
+    .destination__card__top__desc {
+        font-size: 20px;
+    }
+    .destination__card__bottom__service__img img {
+        width: 28px;
+        height: 28px;
+    }
+    .destination__card__bottom__service__price {
+        font-size: 25px;
+    }
+    .destination__card__bottom__info {
+        font-size: 20px;
+    }
+    /* blogs */
+    .blog {
+        padding: 80px 0;
+    }
+
+    .blog__main {
+        grid-template-rows: 152px 152px;
+        grid-gap: 15px;
+    }
+    .blog__main__item:first-child img {
+        width: 520px;
+    }
+    .blog__main__item:nth-child(2) img, 
+    .blog__main__item:last-child img {
+        width: 410px;
+    }
+    .blog__main__item:first-child {
+        font-size: 30px;
+    }
+    .blog__main__item:nth-child(2), 
+    .blog__main__item:last-child {
+        font-size: 22px;
+    }
+    /* happy */
+    .happy__title {
+        font-size: 35px;
+        margin-bottom: 35px
+    }
+    .happy__content img {
+        width: 40px;
+    }
+    .happy__item {
+        padding: 30px 12px 25px 20px;
+    }
+    .happy__content__desc {
+        margin-bottom: 20px;
+        font-size: 22px;
+        margin-left: 15px;
+    }
+    .happy__user {
+        margin-left: 55px;
+    }
+    .happy__user__avatar img {
+        width: 60px;
+        height: 60px;
+    }
+    .happy__user__name {
+        font-size: 24px;
+    }
+    .happy__user__position {
+        font-size: 22px;
+    }
+    
+}
+@media (min-width:768px) and (max-width:991px){
+    .header__menu__item:not(:first-child) {
+        margin-left: 25px;
+    }
+    .header__conn {
+
+        font-size: 16px;
+        padding: 3px 10px;
+    }
+    /* banner */
+    .header__mennu__item__link {
+        font-size: 20px;
+    }
+    .banner {
+        min-height: 450px;
+    }
+    .banner__main__item:not(:last-child) {
+        margin-right: 15px;
+        padding-right: 10px;
+    }
+    .banner__main__title {
+        font-size: 30px;
+    }  
+    .banner__main__desc {
+        width: 70%;
+        margin-bottom: 20px;
+    } 
+    .banner__main__bottom {
+        width: 85%;
+        padding: 13px;
+        margin: 0 auto;
+    }
+    .banner__btn {
+        padding: 10px 15px;
+    }
+    .banner__main__item__caption {
+        font-size: 18px;
+    }
+    /* about */
+    .about {
+         padding: 50px;
+    }
+    .about__main {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+    
+    .about__item:first-child {
+        padding: 29px 30px 21px 26px;
+    }
+    
+    .about__item:nth-child(2) {
+        padding: 29px 18px 25px 15px;
+    }
+    .about__item--title {
+         font-size: 20px;
+      }   
+      /* destination */
+      .destination {
+        padding: 40px 0;
+    }
+    .destination__title {
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+    .destination__menu {
+        width: 600px;
+    }
+    .destination__menu__link {
+        font-size: 20px;
+    }
+        .destination__cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px 30px;
+
+    }
+    .destination__card__top__name {
+        font-size: 28px;
+    }
+    .destination__card__top__desc {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .destination__card__bottom__service__img img {
+        width: 25px;
+        height: 25px;
+    }
+    .destination__card__bottom__service__price {
+        font-size: 22px;
+    }
+    .destination__card__bottom__info {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    /* blogs */
+    .blog {
+        padding: 60px 0;
+    }
+    .blog__main {
+        grid-template-rows: 114px 114px;
+        grid-gap: 10px;
+    }
+    .blog__main__item:first-child img {
+        width: 386px;
+    }
+    .blog__main__item:nth-child(2) img, 
+    .blog__main__item:last-child img {
+        width: 305px;
+    }
+    .blog__main__item:first-child {
+        font-size: 22px;
+    }
+    .blog__main__item:nth-child(2), 
+    .blog__main__item:last-child {
+        font-size: 18px;
+    }
+    /* happy */
+    .happy__title {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .happy__item {
+        padding: 30px 10px 30px 10px;
+    }
+    .happy__content img {
+        width: 40px;
+    }
+    .happy__content__desc {
+        margin-left: 15px;
+        margin-bottom: 22px;
+        font-size: 20px;
+    }
+    .happy__user {
+        margin-left: 50px;
+    }
+    .happy__user__avatar img {
+        width: 50px;
+        height: 50px;
+    }
+    .happy__user__name {
+        font-size: 22px;
+    }
+    .happy__user__position {
+        font-size: 20px;
+    }
+}
+@media  (max-width:767px){
+    .container{
+        max-width: 100%;
+    }
+    
+    .header__main {
+        padding: 10px;
+    }
+    .header__menu {
+        position: absolute;
+        flex-direction: column;
+        background: #1C4961;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        top: 50px;
+        transition: 0.5s ;
+        transform: translateX(-100%);
+        justify-content: unset;
+        z-index: 999;
+    }
+    .header__menu.active{
+        transform: translateX(0);
+    }
+    .header__mennu__item__link {
+        color: white;;
+    }
+    .sub-menu{
+        display: block;
+        left: 90%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .header__menu__item:not(:first-child) {
+        margin-left: 0;
+    } 
+    .header__menu__item{
+        margin-top: 30px;
+    }   
+    .header__conn {
+        font-size: 14px;
+        position: absolute;
+        padding: 3px 10px;
+        right: 20%;
+    }    
+    /* banner */
+    .banner {
+         min-height: 35vh; 
+    }
+    .banner__main__bottom {
+         display: none;
+    }
+    .banner__main__title {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .banner__main__desc {
+        width: 90vw;
+        margin-bottom: 0px;
+        font-size: 16px;
+    }
+    /* about */
+    .about {
+        padding: 40px 0;
+    }
+    .about__main {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 10px;
+    }
+    .about__item--img {
+        width: 70px;
+        height: auto;
+    }
+    .about__item--title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .about__item--desc {
+         font-size: 16px;
+    }
+    .about__item:first-child,
+    .about__item:nth-child(2),
+    .about__item:nth-child(3),
+    .about__item:last-child {
+        padding: 15px 10px 10px 10px
+    }
+    /* destination */
+    .destination {
+        padding: 0;
+    }
+    .destination__title {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .destination__menu {
+        width: 90%;
+    }
+    .destination__menu__link {
+        font-size: 16px;
+        margin-bottom: 10px;
+
+    }
+    
+    .destination__cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px 0;
+        margin-top: 30px;
+    }
+    .destination__card__img {
+        width: 100%;
+    }
+    .destination__card__top__name {
+        font-size: 20px;
+    }
+    .destination__card__top__desc {
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    .destination__card__bottom__service__img img {
+        width: 18px;
+        height: 18px;
+    }
+    .destination__card__bottom__service__price {
+        font-size: 16px;
+    }
+    .destination__card__bottom__info {
+        font-size: 14px;
+    }
+    .destination__card__bottom__service {
+        margin-bottom: 0;
+    }
+    /* blog */
+    .blog {
+        padding: 40px 0;
+    }
+    .blog__main {
+        display: block;
+    }
+    .blog__main__item {
+        width: 100%;
+    }
+    .blog__main__item:first-child {
+        font-size: 20px;
+    }
+    .blog__main__item:nth-child(2), 
+    .blog__main__item:last-child {
+        font-size: 18px;
+    }
+    /* happy */
+    .happy__title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .happy__item {
+        padding: 15px 0 10px 10px;
+    }
+    .happy__content img {
+        width: 30px;
+    }
+    .happy__content__desc {
+        margin-left: 15px;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+}
